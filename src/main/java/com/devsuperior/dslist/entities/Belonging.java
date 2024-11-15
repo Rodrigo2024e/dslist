@@ -13,7 +13,6 @@ public class Belonging {
 	@EmbeddedId
 	private BelongingPK id = new BelongingPK();
 	
-	
 	private Integer position;
 	
 	public Belonging() {
@@ -58,8 +57,4 @@ public class Belonging {
 		Belonging other = (Belonging) obj;
 		return Objects.equals(id, other.id);
 	}
-	
-	
-	
-
 }
